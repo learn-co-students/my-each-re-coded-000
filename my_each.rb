@@ -8,3 +8,6 @@ def my_each(array=["abd","omar","ali"])
   end
   array
 end
+ my_each do |array|
+  puts " hi #{array}"
+end
